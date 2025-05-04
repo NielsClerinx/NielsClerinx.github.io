@@ -16,7 +16,7 @@ const Contact = () => {
                 <MapPin className="h-6 w-6 text-haircare-gold mr-3 flex-shrink-0" />
                 <div>
                   <h3 className="text-haircare-dark-brown font-medium mb-1">Address</h3>
-                  <p className="text-haircare-brown">Mechelsesteenweg 34, 2018 Antwerpen, Belgium</p>
+                  <p className="text-haircare-brown">Gorsemweg 18, 3800 Sint-Truiden, Belgium</p>
                 </div>
               </div>
               
@@ -48,7 +48,7 @@ const Contact = () => {
           
           <div className="h-80 md:h-full min-h-[400px] rounded-lg overflow-hidden shadow-md">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2499.590969111893!2d4.40639!3d51.2041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f6e58bb9b643%3A0x2d5ef66100935a89!2sMechelsesteenweg%2034%2C%202018%20Antwerpen%2C%20Belgium!5e0!3m2!1sen!2sus!4v1682537642097!5m2!1sen!2sus" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.6314107290978!2d5.178265819261301!3d50.81946745760553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c117833457a5f7%3A0x674b9585db0e0b2c!2sUnique%20Haircare!5e0!3m2!1snl!2sbe!4v1746368836903!5m2!1snl!2sbe"
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
