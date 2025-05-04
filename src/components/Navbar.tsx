@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Menu, X, ShoppingBag, Search, User } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 
@@ -12,16 +13,16 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <a href="/" className="text-haircare-dark-brown font-serif text-2xl lg:text-3xl font-semibold">
+            <Link to="/" className="text-haircare-dark-brown font-serif text-2xl lg:text-3xl font-semibold">
               UNIQUE<span className="text-haircare-gold">HAIRCARE</span>
-            </a>
+            </Link>
           </div>
           
           {/* Desktop Navigation */}
           <div className="hidden lg:flex space-x-8">
-            <a href="#" className="text-haircare-dark-brown hover:text-haircare-gold transition-colors font-medium">
+            <Link to="/products" className="text-haircare-dark-brown hover:text-haircare-gold transition-colors font-medium">
               Products
-            </a>
+            </Link>
             <a href="#" className="text-haircare-dark-brown hover:text-haircare-gold transition-colors font-medium">
               Services
             </a>
@@ -62,9 +63,9 @@ const Navbar = () => {
         {isMenuOpen && (
           <div className="lg:hidden absolute top-full left-0 w-full bg-haircare-cream border-t border-haircare-beige py-4 shadow-md animate-fade-in">
             <div className="container-custom flex flex-col space-y-4">
-              <a href="#" className="text-haircare-dark-brown hover:text-haircare-gold py-2 transition-colors">
+              <Link to="/products" className="text-haircare-dark-brown hover:text-haircare-gold py-2 transition-colors">
                 Products
-              </a>
+              </Link>
               <a href="#" className="text-haircare-dark-brown hover:text-haircare-gold py-2 transition-colors">
                 Services
               </a>
