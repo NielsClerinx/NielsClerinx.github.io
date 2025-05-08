@@ -3,7 +3,6 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { Separator } from "@/components/ui/separator";
-import { User } from 'lucide-react';
 
 const About = () => {
   return (
@@ -98,59 +97,6 @@ const About = () => {
                 <p className="text-haircare-brown">
                   We celebrate diversity in all forms and are dedicated to creating products that work for all hair types, 
                   textures, and concerns. Beauty should be accessible to everyone.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Team Section */}
-        <section className="py-16 md:py-20 bg-white">
-          <div className="container-custom">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-display font-medium text-haircare-dark-brown mb-4">Meet Our Team</h2>
-              <p className="text-haircare-brown max-w-2xl mx-auto">
-                The passionate professionals behind Unique Haircare who make beauty happen every day.
-              </p>
-            </div>
-            
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="text-center">
-                <div className="mb-5 mx-auto w-44 h-44 rounded-full overflow-hidden">
-                  <div className="bg-haircare-beige w-full h-full flex items-center justify-center">
-                    <User size={60} className="text-haircare-gold" />
-                  </div>
-                </div>
-                <h3 className="text-xl font-display font-medium text-haircare-dark-brown mb-1">Emma Whitman</h3>
-                <p className="text-haircare-gold mb-3">Founder & Creative Director</p>
-                <p className="text-haircare-brown">
-                  With over 15 years of experience in the beauty industry, Emma's vision and creativity are the heart of Unique Haircare.
-                </p>
-              </div>
-              
-              <div className="text-center">
-                <div className="mb-5 mx-auto w-44 h-44 rounded-full overflow-hidden">
-                  <div className="bg-haircare-beige w-full h-full flex items-center justify-center">
-                    <User size={60} className="text-haircare-gold" />
-                  </div>
-                </div>
-                <h3 className="text-xl font-display font-medium text-haircare-dark-brown mb-1">James Chen</h3>
-                <p className="text-haircare-gold mb-3">Head of Product Development</p>
-                <p className="text-haircare-brown">
-                  James combines scientific expertise with a passion for natural ingredients to create our innovative formulations.
-                </p>
-              </div>
-              
-              <div className="text-center">
-                <div className="mb-5 mx-auto w-44 h-44 rounded-full overflow-hidden">
-                  <div className="bg-haircare-beige w-full h-full flex items-center justify-center">
-                    <User size={60} className="text-haircare-gold" />
-                  </div>
-                </div>
-                <h3 className="text-xl font-display font-medium text-haircare-dark-brown mb-1">Sofia Martinez</h3>
-                <p className="text-haircare-gold mb-3">Master Stylist & Educator</p>
-                <p className="text-haircare-brown">
-                  Sofia's artistic approach and technical precision have made her a sought-after educator and stylist in the industry.
                 </p>
               </div>
             </div>
