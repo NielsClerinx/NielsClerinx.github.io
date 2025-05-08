@@ -26,9 +26,9 @@ const Navbar = () => {
             <Link to="/services" className="text-haircare-dark-brown hover:text-haircare-gold transition-colors font-medium">
               Services
             </Link>
-            <a href="#" className="text-haircare-dark-brown hover:text-haircare-gold transition-colors font-medium">
+            <Link to="/about" className="text-haircare-dark-brown hover:text-haircare-gold transition-colors font-medium">
               About Us
-            </a>
+            </Link>
             <Link to="/contact" className="text-haircare-dark-brown hover:text-haircare-gold transition-colors font-medium">
               Contact
             </Link>
@@ -69,9 +69,9 @@ const Navbar = () => {
               <Link to="/services" className="text-haircare-dark-brown hover:text-haircare-gold py-2 transition-colors">
                 Services
               </Link>
-              <a href="#" className="text-haircare-dark-brown hover:text-haircare-gold py-2 transition-colors">
+              <Link to="/about" className="text-haircare-dark-brown hover:text-haircare-gold py-2 transition-colors">
                 About Us
-              </a>
+              </Link>
               <Link to="/contact" className="text-haircare-dark-brown hover:text-haircare-gold py-2 transition-colors">
                 Contact
               </Link>
