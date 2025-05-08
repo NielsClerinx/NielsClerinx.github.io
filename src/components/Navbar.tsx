@@ -29,9 +29,9 @@ const Navbar = () => {
             <a href="#" className="text-haircare-dark-brown hover:text-haircare-gold transition-colors font-medium">
               About Us
             </a>
-            <a href="#" className="text-haircare-dark-brown hover:text-haircare-gold transition-colors font-medium">
+            <Link to="/contact" className="text-haircare-dark-brown hover:text-haircare-gold transition-colors font-medium">
               Contact
-            </a>
+            </Link>
           </div>
           
           {/* Action Buttons */}
@@ -72,9 +72,9 @@ const Navbar = () => {
               <a href="#" className="text-haircare-dark-brown hover:text-haircare-gold py-2 transition-colors">
                 About Us
               </a>
-              <a href="#" className="text-haircare-dark-brown hover:text-haircare-gold py-2 transition-colors">
+              <Link to="/contact" className="text-haircare-dark-brown hover:text-haircare-gold py-2 transition-colors">
                 Contact
-              </a>
+              </Link>
               <div className="flex space-x-6 pt-2">
                 <button aria-label="Search" className="text-haircare-brown hover:text-haircare-gold transition-colors">
                   <Search size={20} />
