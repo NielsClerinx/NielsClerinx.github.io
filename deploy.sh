@@ -10,6 +10,14 @@ npm run build
 # navigate into the build output directory
 cd dist
 
+# Create a .nojekyll file to prevent GitHub Pages from ignoring files that begin with an underscore
+touch .nojekyll
+
+# Create a custom _headers file to set the correct MIME types
+echo '/*
+  Content-Type: text/javascript; charset=utf-8
+' > _headers
+
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
 
@@ -26,3 +34,4 @@ git commit -m 'deploy'
 git push -f git@github.com:NielsClerinx/NielsClerinx.github.io main:gh-pages
 
 cd -
+
